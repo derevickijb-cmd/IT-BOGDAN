@@ -1,0 +1,1 @@
+ptogd = int (input("ddtlbnt cdqj djphfcn lfnr b vyjujn xtuj tott"))
