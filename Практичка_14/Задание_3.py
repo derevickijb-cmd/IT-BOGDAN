@@ -1,11 +1,11 @@
 input_list = [[1, -2, 3, 0], [-5, 10, -1, 7], [0, 0, -3, 4], [8, -9, 2, -4]]
 
-# Вывод меню
+#Вывод меню
 print("=== ФИЛЬТРАЦИЯ ВЛОЖЕННОГО СПИСКА ===")
 print("Исходный список:")
 print(input_list)
 
-# фильтрация 
+#фильтрация 
 filtered_list = []
 for sublist in input_list:
     temp = []
@@ -14,7 +14,7 @@ for sublist in input_list:
             temp.append(element)
     filtered_list.append(temp)
 
-# Подсчёт статистики
+#Подсчёт статистики
 original_count = 0
 filtered_count = 0
 
@@ -26,7 +26,7 @@ for sublist in filtered_list:
 
 deleted_count = original_count - filtered_count
 
-# Вывод результатов
+#Вывод результатов
 print("\n" + "="*50)
 print("ОТФИЛЬТРОВАННЫЙ СПИСОК:")
 print(filtered_list)
@@ -36,7 +36,7 @@ print(f"Всего элементов в исходном списке: {origina
 print(f"Положительных элементов (>0): {filtered_count}")
 print(f"Удалено элементов: {deleted_count}")
 
-# Детальный вывод по подспискам
+#Детальный вывод по подспискам
 print("\n" + "="*50)
 print("ДЕТАЛЬНО ПО ПОДСПИСКАМ:")
 for i in range(len(input_list)):
@@ -46,5 +46,5 @@ for i in range(len(input_list)):
     print(f"  Было: {original}")
     print(f"  Стало: {filtered}")
     print(f"  Положительных: {len(filtered)} из {len(original)}")
-    print()  # Это пустая строка для разделения подсписков
-# Код заканчивается здесь - больше ничего нет
+    print() #Это пустая строка для разделения подсписков
+    world = (0)
